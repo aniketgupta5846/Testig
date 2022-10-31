@@ -1,0 +1,50 @@
+package com.pageone.jpet;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+
+public class LibraryPageOne {
+	// Declaration of Webdriver
+	WebDriver wd;
+	File file = new File("./JpetOR/or1.properties");
+	FileReader fr = new FileReader(file);
+
+	// By variables for webelements
+	By text1 = By.xpath("/html/body/div[2]/div[2]/div[1]/div/a[1]/img");
+	By signinlink = By.xpath("//a[contains(text( ),\"Sign In\")]");
+
+	// WebDriver initialization for page1
+
+	public void init1(WebDriver wd) {
+		this.wd = wd;
+	}
+
+	public void Fun_LaunchJpetApp() throws IOException {
+		wd.get("https://petstore.octoperf.com/actions/Catalog.action");
+		if (wd.findElement(text1).isDisplayed()) {
+
+			System.out.println("The application is launched");
+			File src = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+			Files.copy(src, new File("./ScreenImages/image1.png"));
+		} else {
+			System.out.println("Wrong url");
+			File src = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+			Files.copy(src, new File("./ScreenImages/image2.png"));
+		}
+		}
+
+	public void Fun_ClickSignin() {
+		if (wd.findElement(signinlink).isDisplayed()) {
+			wd.findElement(signinlink).click();
+		} else {
+			System.out.println("The element signin is not present");
+		}
+		}
+}

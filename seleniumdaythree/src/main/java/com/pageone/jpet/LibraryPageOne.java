@@ -1,7 +1,10 @@
 package com.pageone.jpet;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -13,9 +16,28 @@ import com.google.common.io.Files;
 public class LibraryPageOne {
 	// Declaration of Webdriver
 	WebDriver wd;
+	FileReader fr;
+	Properties p;
+
+	public LibraryPageOne() {
+		super();
+		File file = new File(".//JpetOR//or1.properties");
+		try {
+			FileReader fr = new FileReader(file);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		Properties p = new Properties();
+		try {
+			p.load(fr);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	// By variables for webelements
-	By text1 = By.xpath("/html/body/div[2]/div[2]/div[1]/div/a[1]/img");
+	By text1 = By.xpath(p.getProperty("txt"));
 	By signinlink = By.xpath("//a[contains(text( ),\"Sign In\")]");
 
 	// WebDriver initialization for page1

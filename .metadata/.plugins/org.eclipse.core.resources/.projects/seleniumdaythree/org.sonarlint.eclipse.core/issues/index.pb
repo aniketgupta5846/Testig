@@ -71,3 +71,11 @@ N
 test-output/testng-results.xml,0\0\00e0b2ae7f44da7a9e12fd1418e328ac78839661
 _
 /src/test/java/com/scripts/jpet/JpetScript3.java,6\6\66a98563cf01b09a6467c0104088b6198b752d81
+F
+Reports/newtours1.html,9\f\9f4dc49953d0734e939800e323caf4b7429edb9a
+G
+ScreenImages/image2.png,8\f\8fdadf9fac6266936440e798ab02a67cc2f91228
+G
+ScreenImages/image1.png,1\5\15f04e364cf12c4afa2b844bdcc5dc3c64b9c8bc
+E
+JpetOR/or1.properties,f\0\f00ec273565b7eb180e90f5ac25661d9835d190c

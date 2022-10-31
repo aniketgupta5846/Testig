@@ -1,11 +1,25 @@
 
-i	java:S106"9Replace this use of System.out or System.err by a logger.(«ÂÂıÿÿÿÿH²RMAJORZ
+n
+java:S1117"6Rename "fr" which hides the field declared at line 19.(ÕÇƒ—øÿÿÿÿ8í×¼çÂ0HºRMAJORZ
 CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(»µú•H³RMAJORZ
+d	java:S106C"9Replace this use of System.out or System.err by a logger.(Ô²HÚRMAJORZ
 CODE_SMELL
-d	java:S106""9Replace this use of System.out or System.err by a logger.(Ô²H´RMAJORZ
+d	java:S1065"9Replace this use of System.out or System.err by a logger.(»µú•H×RMAJORZ
 CODE_SMELL
-…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îñ‹öıÿÿÿÿ8¦±èóÁ0HµRMINORZ
+{
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿ8¤´¸çÂ0H­RBLOCKERZBUG
+m
+java:S1117"5Rename "p" which hides the field declared at line 20.(¥…ï¼ÿÿÿÿÿ8í×¼çÂ0H»RMAJORZ
 CODE_SMELL
-…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òêÂîıÿÿÿÿ8¦±èóÁ0H¶RMINORZ
+_
+java:S1481"'Remove this unused "fr" local variable.(ÕÇƒ—øÿÿÿÿ8¤´¸çÂ0H«RMINORZ
+CODE_SMELL
+i	java:S1069"9Replace this use of System.out or System.err by a logger.(«ÂÂıÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+€	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã×è8¦±èóÁ0HÛRMINORZ
+CODE_SMELL
+…	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îñ‹öıÿÿÿÿ8¦±èóÁ0HØRMINORZ
+CODE_SMELL
+i
+java:S1135""2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8æšÌçÂ0HÍRINFOZ
 CODE_SMELL

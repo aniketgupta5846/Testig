@@ -1,15 +1,15 @@
 
-i	java:S106'"9Replace this use of System.out or System.err by a logger.(û”óÕÿÿÿÿÿH·RMAJORZ
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›€ª¸HÜRMINORZ
 CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(öÏäˆşÿÿÿÿH¸RMAJORZ
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‡í¨øÿÿÿÿ8ìæ°óÁ0HİRMINORZ
 CODE_SMELL
-y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›€ª¸H¹RMINORZ
+i	java:S106'"9Replace this use of System.out or System.err by a logger.(û”óÕÿÿÿÿÿHŞRMAJORZ
 CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(…ûÌúÿÿÿÿHºRMAJORZ
+€	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÄşí8â›àóÁ0HßRMINORZ
 CODE_SMELL
-…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‡í¨øÿÿÿÿ8ìæ°óÁ0H»RMINORZ
+i	java:S106"9Replace this use of System.out or System.err by a logger.(…ûÌúÿÿÿÿHàRMAJORZ
 CODE_SMELL
-€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¢£¯8ñáóÁ0H¼RMINORZ
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¢£¯8ñáóÁ0HáRMINORZ
 CODE_SMELL
-€	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÄşí8â›àóÁ0H½RMINORZ
+i	java:S106"9Replace this use of System.out or System.err by a logger.(öÏäˆşÿÿÿÿHâRMAJORZ
 CODE_SMELL
