@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-31T12:21:24 IST" name="Default suite" finished-at="2022-10-31T12:21:40 IST" duration-ms="15188">
+  <suite started-at="2022-10-31T14:52:17 IST" name="Default suite" finished-at="2022-10-31T14:52:34 IST" duration-ms="17074">
     <groups>
     </groups>
-    <test started-at="2022-10-31T12:21:24 IST" name="Default test" finished-at="2022-10-31T12:21:40 IST" duration-ms="15188">
+    <test started-at="2022-10-31T14:52:17 IST" name="Default test" finished-at="2022-10-31T14:52:34 IST" duration-ms="17074">
       <class name="com.scripts.jpet.JpetScript3">
-        <test-method is-config="true" signature="f()[pri:0, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:24 IST" name="f" finished-at="2022-10-31T12:21:27 IST" duration-ms="2802" status="PASS">
+        <test-method is-config="true" signature="f()[pri:0, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:17 IST" name="f" finished-at="2022-10-31T14:52:21 IST" duration-ms="4025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="Fun_JpetInvoke()[pri:1, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:27 IST" name="Fun_JpetInvoke" finished-at="2022-10-31T12:21:30 IST" duration-ms="3067" status="PASS">
+        <test-method signature="Fun_JpetInvoke()[pri:1, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:21 IST" name="Fun_JpetInvoke" finished-at="2022-10-31T14:52:24 IST" duration-ms="3203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_JpetInvoke -->
-        <test-method signature="Fun_JpetClickSignin()[pri:2, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:30 IST" name="Fun_JpetClickSignin" finished-at="2022-10-31T12:21:33 IST" duration-ms="2227" status="PASS">
+        <test-method signature="Fun_JpetClickSignin()[pri:2, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:24 IST" name="Fun_JpetClickSignin" finished-at="2022-10-31T14:52:27 IST" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_JpetClickSignin -->
-        <test-method signature="Fun_Enter_UserName()[pri:3, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:33 IST" name="Fun_Enter_UserName" finished-at="2022-10-31T12:21:35 IST" duration-ms="2071" status="PASS">
+        <test-method signature="Fun_Enter_UserName()[pri:3, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:27 IST" name="Fun_Enter_UserName" finished-at="2022-10-31T14:52:29 IST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_Enter_UserName -->
-        <test-method signature="Fun_Enter_Password()[pri:4, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:35 IST" name="Fun_Enter_Password" finished-at="2022-10-31T12:21:37 IST" duration-ms="2049" status="PASS">
+        <test-method signature="Fun_Enter_Password()[pri:4, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:29 IST" name="Fun_Enter_Password" finished-at="2022-10-31T14:52:31 IST" duration-ms="2096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_Enter_Password -->
-        <test-method signature="Fun_Click_Signon()[pri:5, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:37 IST" name="Fun_Click_Signon" finished-at="2022-10-31T12:21:39 IST" duration-ms="2232" status="PASS">
+        <test-method signature="Fun_Click_Signon()[pri:5, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:31 IST" name="Fun_Click_Signon" finished-at="2022-10-31T14:52:33 IST" duration-ms="2291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_Click_Signon -->
-        <test-method signature="displayString()[pri:6, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:39 IST" name="displayString" finished-at="2022-10-31T12:21:39 IST" duration-ms="2" status="PASS">
+        <test-method signature="displayString()[pri:6, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:33 IST" name="displayString" finished-at="2022-10-31T14:52:33 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayString -->
-        <test-method is-config="true" signature="Fun_CloseBrowser()[pri:0, instance:com.scripts.jpet.JpetScript3@8f2ef19]" started-at="2022-10-31T12:21:39 IST" name="Fun_CloseBrowser" finished-at="2022-10-31T12:21:40 IST" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="Fun_CloseBrowser()[pri:0, instance:com.scripts.jpet.JpetScript3@74ea2410]" started-at="2022-10-31T14:52:33 IST" name="Fun_CloseBrowser" finished-at="2022-10-31T14:52:34 IST" duration-ms="994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_CloseBrowser -->

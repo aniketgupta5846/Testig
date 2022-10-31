@@ -1,43 +1,23 @@
 package com.pageone.jpet;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.google.common.io.Files;
+
 
 public class LibraryPageOne {
 	// Declaration of Webdriver
 	WebDriver wd;
-	FileReader fr;
-	Properties p;
-
-	public LibraryPageOne() {
-		super();
-		File file = new File(".//JpetOR//or1.properties");
-		try {
-			FileReader fr = new FileReader(file);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		Properties p = new Properties();
-		try {
-			p.load(fr);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 
 	// By variables for webelements
-	By text1 = By.xpath(p.getProperty("txt"));
+	By text1 = By.xpath("/html/body/div[2]/div[2]/div[1]/div/a[1]/img");
 	By signinlink = By.xpath("//a[contains(text( ),\"Sign In\")]");
 
 	// WebDriver initialization for page1
@@ -48,6 +28,14 @@ public class LibraryPageOne {
 
 	public void Fun_LaunchJpetApp() throws IOException {
 		wd.get("https://petstore.octoperf.com/actions/Catalog.action");
+
+		String expectVal = "Sign In";
+		String actualVal = wd
+				.findElement(By.xpath("//*[@id=\"MenuContent\"]/a[2]"))
+				.getText();
+		// System.out.println(actualVal);
+		Assert.assertEquals(expectVal, actualVal);
+
 		if (wd.findElement(text1).isDisplayed()) {
 
 			System.out.println("The application is launched");
