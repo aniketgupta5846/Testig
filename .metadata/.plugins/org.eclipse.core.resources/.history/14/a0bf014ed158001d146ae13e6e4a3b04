@@ -1,0 +1,29 @@
+package ScenariosBasedAutomation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Scenario10_DragnDrop {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");
+
+		WebDriver wd = new FirefoxDriver();
+		wd.get("https://jqueryui.com/droppable/");
+		
+		Actions act = new Actions(wd);
+
+		wd.switchTo().frame(0);
+
+		WebElement src = wd.findElement(By.xpath("//div[@id='draggable']"));
+		WebElement dest = wd.findElement(By.xpath("//div[@id='droppable']"));
+		
+		Thread.sleep(2000);
+		act.clickAndHold(src).moveToElement(dest).release().build().perform();
+
+	}
+
+}

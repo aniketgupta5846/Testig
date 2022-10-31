@@ -1,0 +1,7 @@
+package com.junit.scripts;
+
+import junit.framework.TestCase;
+
+public class TC_002 extends TestCase {
+
+}

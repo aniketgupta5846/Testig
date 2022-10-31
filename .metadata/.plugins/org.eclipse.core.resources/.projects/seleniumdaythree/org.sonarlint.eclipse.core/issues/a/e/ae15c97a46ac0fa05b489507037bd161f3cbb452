@@ -1,0 +1,9 @@
+
+x	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŽæšÃHó
+RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙËÍ”úÿÿÿÿHô
+RMINORZ
+CODE_SMELL
+Š
+java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¶æâáÂ0HŽRMAJORZBUG

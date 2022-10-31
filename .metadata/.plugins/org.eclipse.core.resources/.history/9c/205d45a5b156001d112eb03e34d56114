@@ -1,0 +1,8 @@
+package com.day1.lib;
+
+import org.openqa.selenium.WebDriver;
+
+public class LibraryTwo {
+	WebDriver wd;
+
+}

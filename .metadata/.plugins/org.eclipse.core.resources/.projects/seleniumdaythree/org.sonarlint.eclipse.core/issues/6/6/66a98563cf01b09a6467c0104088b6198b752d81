@@ -1,0 +1,19 @@
+
+P
+java:S2925@"$Remove this use of "Thread.sleep()".(¯ú™úH’RMAJORZ
+CODE_SMELL
+¼
+java:S3577"ŠRename class "JpetScript3" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(„åÂÊÿÿÿÿÿHRMINORZ
+CODE_SMELL
+P
+java:S2925*"$Remove this use of "Thread.sleep()".(¯ú™úHRMAJORZ
+CODE_SMELL
+P
+java:S29256"$Remove this use of "Thread.sleep()".(¯ú™úHRMAJORZ
+CODE_SMELL
+P
+java:S2925;"$Remove this use of "Thread.sleep()".(¯ú™úH‘RMAJORZ
+CODE_SMELL
+P
+java:S29250"$Remove this use of "Thread.sleep()".(¯ú™úHRMAJORZ
+CODE_SMELL

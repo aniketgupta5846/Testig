@@ -1,0 +1,38 @@
+package ScenariosBasedAutomation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/*******************************************************
+ * 
+ * Script Name : TCS01.java
+ * 
+ * Script Description: Step-1: Launch the Google application in firefox browser
+ * Step-2: Search Test Automation Step-3: Press Enter key Date of creation :
+ * Method Library: Test data path: Driver Path: Author Name:
+ * 
+ ********************************************************/
+
+public class Scenario12_UploadFile {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");
+
+		WebDriver wd = new FirefoxDriver();
+
+		wd.get("https://www.w3schools.com/howto/howto_html_file_upload_button.asp");
+		Thread.sleep(2000);
+		wd.findElement(By.xpath("/html//input[@id='myFile']"))
+				.sendKeys("C:\\Users\\Aniketramji.Gupta\\testing_ecllipse\\seleniumdaythree\\FileUp\\Headers.txt");
+
+		// wd.findElement(By.cssSelector("span:nth-child(2)")).sendKeys(".//");
+
+
+		Thread.sleep(2000);
+		wd.quit();
+
+	}
+
+}

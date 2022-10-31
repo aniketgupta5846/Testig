@@ -1,0 +1,10 @@
+package ScenariosBasedAutomation;
+
+public class Scenario1_PressEnter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

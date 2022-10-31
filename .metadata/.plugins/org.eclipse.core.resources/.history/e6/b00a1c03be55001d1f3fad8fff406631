@@ -1,0 +1,19 @@
+package com.day1.scripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TCS1 {
+
+	public static void main(String[] args) {
+		//Step-1
+		//set the driver path
+		// declaration and instantiation of objects/variables  
+	    System.setProperty("webdriver.chrome.driver", ".//Driver.gekodriver");  
+	    
+	    //Step - 2
+	    WebDriver driver=new FirefoxDriver();  
+
+	}
+
+}

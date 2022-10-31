@@ -1,0 +1,6 @@
+
+o	java:S106"9Replace this use of System.out or System.err by a logger.(şÒãûÿÿÿÿ8ÿìÂÁ0HKRMAJORZ
+CODE_SMELL
+u
+java:S2095
+"HUse try-with-resources or close this "FileReader" in a "finally" clause.(¿Ë¦ª8ÿìÂÁ0HLRBLOCKERZBUG

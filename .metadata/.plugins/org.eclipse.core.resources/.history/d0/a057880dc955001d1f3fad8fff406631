@@ -1,0 +1,41 @@
+package com.day1.scripts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ *  @author Aniketramji.Gupta
+ *  
+ *  1.Launch Opencart
+ *  2.Click on My Account
+ *  3.Click on Register
+ *
+ */
+
+
+public class TCS3 {
+
+	public static void main(String[] args) {
+		//Step-1
+		//Set the driver path
+	    System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");  
+	    
+	    //Step - 2
+	    //Crate the instance for FireFox Browser
+	    WebDriver wd = new FirefoxDriver();
+	    
+	    //Maximize browser window
+	    wd.manage().window().maximize();
+	    
+	    //Invoke application under test  //a[contains(text(),"Login")]
+	    wd.get("https://demo.opencart.com/"); 
+	    
+	    wd.findElement(By.xpath("//span[contains(text(),\"My Account\")]"));
+	    wd.findElement(By.xpath("//a[contains(text(),\"Login\")]"));
+	    wd.findElement(By.name("email")).sendKeys("Testdatauser1");
+	    
+
+	}
+
+}

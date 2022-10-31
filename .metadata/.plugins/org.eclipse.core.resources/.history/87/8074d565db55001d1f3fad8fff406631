@@ -1,0 +1,12 @@
+package com.day1.lib;
+
+import org.openqa.selenium.WebDriver;
+
+public class Libraryone {
+	WebDriver wd;
+	
+	public void launchOpencart() {
+		wd.navigate().to("https://demo.opencart.com/index.php?route=account/login&language=en-gb");
+	}
+
+}

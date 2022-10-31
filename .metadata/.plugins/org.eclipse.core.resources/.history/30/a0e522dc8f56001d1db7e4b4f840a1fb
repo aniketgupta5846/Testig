@@ -1,0 +1,16 @@
+package com.junit.scripts;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+
+import junit.framework.TestCase;
+
+class TC_001 extends TestCase {
+
+	@Test
+	public void method_1() {
+		fail("Not yet implemented");
+	}
+
+}

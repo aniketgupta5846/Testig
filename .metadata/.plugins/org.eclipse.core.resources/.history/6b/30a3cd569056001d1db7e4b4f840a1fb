@@ -1,0 +1,14 @@
+package com.junit.scripts;
+
+import org.junit.jupiter.api.Test;
+
+import junit.framework.TestCase;
+
+class TC_001 extends TestCase {
+
+	@Test
+	public void method_1() {
+		System.out.println("Hi How are you");
+	}
+
+}

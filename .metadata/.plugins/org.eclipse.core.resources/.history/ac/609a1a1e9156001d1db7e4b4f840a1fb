@@ -1,0 +1,21 @@
+package com.junit.scripts;
+
+
+class TC_001 {
+
+	@Test
+	public void test1() {
+		System.out.println("Hi How are you 1");
+	}
+
+	@Test
+	public void test2() {
+		System.out.println("Hi How are you 2");
+	}
+
+	@Test
+	public void test3() {
+		System.out.println("Hi How are you 3");
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.pageone.jpet;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LibraryPageOne {
+	WebDriver wd;
+
+	By fish1 = By.xpath("//?/img[@src='https://petstore.octoperf.com/images/fish_icon.gif']");
+
+	By signinlink = By.xpath("//div[#'MenuContent']/a[@innertext='Sign In']");
+
+	public void DriverInit1(WebDriver wd) {
+		this.wd = wd;
+	}
+
+	public void LaunchApp1() {
+		wd.get("https://petstore.octoperf.com/actions/Catalog.action");
+		if (wd.findElement(fish1).isDisplayed()) {
+			System.out.println("The jpet app has successfully opened");
+		} else {
+			System.out.println("The url is incorrect");
+		}
+	}
+
+	public void ClickOnSignIn1() {
+		if (wd.findElement(signinlink).isDisplayed()) {
+			System.out.println("The jpet app has successfully opened signin page");
+		} else {
+			System.out.println("The url is incorrect");
+		}
+	}
+}

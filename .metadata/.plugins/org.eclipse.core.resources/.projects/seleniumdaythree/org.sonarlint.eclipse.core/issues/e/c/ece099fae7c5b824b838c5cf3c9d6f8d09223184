@@ -1,0 +1,15 @@
+
+i	java:S106'"9Replace this use of System.out or System.err by a logger.(û”óÕÿÿÿÿÿH·RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(öÏäˆşÿÿÿÿH¸RMAJORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›€ª¸H¹RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(…ûÌúÿÿÿÿHºRMAJORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‡í¨øÿÿÿÿ8ìæ°óÁ0H»RMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¢£¯8ñáóÁ0H¼RMINORZ
+CODE_SMELL
+€	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÄşí8â›àóÁ0H½RMINORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+package com.junit.scripts;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class method_1 {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

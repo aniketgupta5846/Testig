@@ -1,0 +1,17 @@
+/**
+ * 1. Reverse the given String
+ * 2. Display Array
+ */
+
+package com.testng.scripts;
+
+import org.testng.annotations.Test;
+
+public class TC001 {
+  @Test
+  public void funMethod1() {
+	  String nm = "TestngTest";
+	  StringBuffer sb = new StringBuffer(nm);
+	  StringBuffer sb1 = sb.reverse();
+  }
+}

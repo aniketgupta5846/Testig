@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.testng.scripts.TC001"/>
+      <class name="com.scripts.jpet.JpetScript2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

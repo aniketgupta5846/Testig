@@ -1,0 +1,14 @@
+package com.junit.scripts;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TC_001 extends TestCase {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,15 @@
+
+„
+java:S1192:"IDefine a constant instead of duplicating this literal "password" 3 times.(ºˆ ”øÿÿÿÿ8­ÒéÅÁ0HşRCRITICALZ
+CODE_SMELL
+k	java:S106?"9Replace this use of System.out or System.err by a logger.(¼ÀË”8‹ğÅÁ0H–RMAJORZ
+CODE_SMELL
+p	java:S106G"9Replace this use of System.out or System.err by a logger.(“‚Îşÿÿÿÿ8˜ÔæÅÁ0HúRMAJORZ
+CODE_SMELL
+n	java:S125C"<This block of commented-out lines of code should be removed.(œ¿æ8ø›øÅÁ0H¯RMAJORZ
+CODE_SMELL
+k	java:S1067"9Replace this use of System.out or System.err by a logger.(‰Ûƒø8‰ıíÅÁ0HŒRMAJORZ
+CODE_SMELL
+‚
+java:S11922"LDefine a constant instead of duplicating this literal "input-email" 3 times.(¬ËşÏ8¦€åÅÁ0HóRCRITICALZ
+CODE_SMELL

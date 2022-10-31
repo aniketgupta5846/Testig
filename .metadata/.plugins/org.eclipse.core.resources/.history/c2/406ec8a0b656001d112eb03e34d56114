@@ -1,0 +1,37 @@
+package com.pagetwo.jpet;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LibraryPageTwo {
+	WebDriver wd;
+
+	WebElement we1, we2, we3;
+
+
+	public void DriverInit2(WebDriver wd) {
+		this.wd = wd;
+	}
+
+	public void EnterUserName() {
+		wd.get("https://petstore.octoperf.com/actions/Catalog.action");
+		we1 = wd.findElement(By.name("username"));
+		we1.sendKeys("Testuser1");
+		if (wd.findElement((By) we1).isDisplayed()) {
+			System.out.println("The jpet enter username successfully opened");
+		} else {
+			System.out.println("The url is incorrect");
+		}
+	}
+
+	public void EnterPassword() {
+		we2 = wd.findElement(By.name("password"));
+		we2.sendKeys("Testuser1");
+		if (wd.findElement((By) we1).isDisplayed()) {
+			System.out.println("The jpet enter password successfully opened");
+		} else {
+			System.out.println("The url is incorrect");
+		}
+	}
+}

@@ -1,0 +1,19 @@
+package ScenariosBasedAutomation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Scenario10_DrafnDrop {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");
+
+		WebDriver wd = new FirefoxDriver();
+
+		wd.navigate().to("https://jqueryui.com/droppable/");
+		wd.findElement(By.name("q")).sendKeys("Test Automation");
+
+	}
+
+}

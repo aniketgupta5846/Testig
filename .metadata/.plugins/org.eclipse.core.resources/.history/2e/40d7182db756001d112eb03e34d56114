@@ -1,0 +1,47 @@
+package com.scripts.jpet;
+
+public class JpetScript {
+	// Page objects
+	Jpet_Pag1_Lib obj1 = new Jpet_Pag1_Lib();
+	Jpet_Page2_Lib obj2=new Jpet_Page2_Lib();
+	 static WebDriver wd;
+  @BeforeTest
+  public void f() {
+	  System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");
+	  wd = new FirefoxDriver();
+	  
+  }
+  
+  @Test(priority=1)
+  public void Fun_JpetInvoke() throws InterruptedException {
+	  obj1.init1(wd);
+	  obj1.Fun_LaunchJpetApp();
+	  Thread.sleep(2000);
+	  
+  }
+  @Test(priority=2)
+  public void Fun_JpetClickSignin() throws InterruptedException {
+	  obj1.Fun_ClickSignin();
+	  Thread.sleep(2000);
+  }
+  @Test(priority=3)
+  public void Fun_Enter_UserName() throws InterruptedException {
+	  obj2.init2(wd);
+	  obj2.Fun_EnterUserName();
+	  Thread.sleep(2000);
+  }
+  @Test(priority=4)
+  public void Fun_Enter_Password() throws InterruptedException {
+	  obj2.Fun_EnterPassword();
+	  Thread.sleep(2000);
+  }
+  @Test(priority=5)
+  public void Fun_Click_Signon() throws InterruptedException {
+	  obj2.Fun_ClickSingon();
+	  Thread.sleep(2000);	  
+  }
+  @Test(priority=6)
+  public void Fun_CloseBrowser() {
+	  wd.close();
+  }
+}

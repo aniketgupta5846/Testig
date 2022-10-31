@@ -1,0 +1,13 @@
+package pakagescript;
+import packagelib.MyLib;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyLib obj = new MyLib();
+		obj.
+		obj.displaydata();
+	}
+
+}

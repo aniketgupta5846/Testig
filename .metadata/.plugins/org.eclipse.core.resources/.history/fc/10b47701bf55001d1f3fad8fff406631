@@ -1,0 +1,25 @@
+package com.day1.scripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TCS1 {
+
+	public static void main(String[] args) {
+		//Step-1
+		//Set the driver path
+	    System.setProperty("webdriver.gecko.driver", ".//Drivers//geckodriver.exe");  
+	    
+	    //Step - 2
+	    //Crate the instance for FireFox Browser
+	    WebDriver wd = new FirefoxDriver();
+	    
+	    wd.navigate().to("http://www.google.com/");
+	    //Step - 3
+	    //Invoke the application
+	    wd.get(null);
+	    
+
+	}
+
+}
